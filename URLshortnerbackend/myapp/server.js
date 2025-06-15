@@ -8,7 +8,11 @@ const { sanitizeInput } = require("./middlewares/sanitizeInput");
 const Limiter = require("./middlewares/rateLimiter");
 const urlRoutes = require("./routes/urlRoutes");
 const cors = require('cors');
-app.use(cors());
+
+app.use(cors({
+  origin: 'https://26yashtiwari2002.github.io'
+}));
+
 
 //connect to mongodb
 connectDB();
