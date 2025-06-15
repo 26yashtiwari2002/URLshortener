@@ -7,7 +7,7 @@ import "./App.css";
 
 function App() {
   return (
-    <Router>
+    <Router basename="/URLshortener">
       <div className="app">
         <nav className="navbar">
           <div className="navbar-left">URL Shortener</div>

@@ -20,7 +20,7 @@ function Home() {
     }
 
     try {
-      const response = await axios.post("http://localhost:8081/api/shorten", {
+      const response = await axios.post("https://urlshortener-backend-zvdl.onrender.com/api/shorten", {
         url,
       });
       const newShort = response.data.shortUrl;

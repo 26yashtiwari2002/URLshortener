@@ -1,7 +1,7 @@
 
 import axios from 'axios';
 
-const API_BASE_URL = "http://localhost:8081";
+const API_BASE_URL = "https://urlshortener-backend-zvdl.onrender.com";
 
 // POST request to shorten a URL
 export const shortenUrl = async (originalUrl) => {
