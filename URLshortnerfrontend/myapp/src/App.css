@@ -221,12 +221,27 @@ button:disabled {
   background: #1f1f1f;
   border-radius: 8px;
   color: white;
+
+}
+
+.list ul li {
+  background: #1e1e2f;
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  color: #fff;
+  word-break: break-all; /* breaks long words/URLs to fit */
+  overflow-wrap: anywhere; /* ensures wrapping at any point */
 }
 
 .list a {
-  color: #00bcd4;
+  color: #00ffff;
   text-decoration: none;
+  display: inline-block;
+  max-width: 100%;
+  word-break: break-all;
 }
+
 
 
 
