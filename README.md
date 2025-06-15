@@ -21,9 +21,6 @@ It allows users to input a long URL and receive a shortened version, with redire
 ### 🔸 Frontend (GitHub Pages)
 👉 [Visit URL Shortener](https://26yashtiwari2002.github.io/URLshortener/)
 
-### 🔹 Backend (Render)
-👉 [Render Backend URL](https://urlshortener-backend-zvdl.onrender.com)
-
 ---
 
 ## 🛠️ Tech Stack
